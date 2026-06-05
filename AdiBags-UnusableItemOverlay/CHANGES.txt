@@ -1,0 +1,10 @@
+lightweight tag d77a1dcede04dde3fbb109e7f431b5a8d218dbfc v1.3
+Author:	Andrew Potter <apottere@gmail.com>
+Date:	Sat Nov 16 23:12:42 2019 -0500
+
+commit d77a1dcede04dde3fbb109e7f431b5a8d218dbfc
+Author: Andrew Potter <apottere@gmail.com>
+Date:   Sat Nov 16 23:12:42 2019 -0500
+
+    Don't create textures and use SetVertexColor instead
+

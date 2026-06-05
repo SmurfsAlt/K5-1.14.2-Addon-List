@@ -1,0 +1,10 @@
+lightweight tag 6302546702f7e9617f9519aefe511bd52c56a61f v1.2.3
+Author:	Simon Hirsig <simon.hirsig@gmail.com>
+Date:	Sat Apr 9 13:06:45 2022 +0200
+
+commit 6302546702f7e9617f9519aefe511bd52c56a61f
+Author: Simon Hirsig <simon.hirsig@gmail.com>
+Date:   Sat Apr 9 13:06:45 2022 +0200
+
+    removing unused code
+

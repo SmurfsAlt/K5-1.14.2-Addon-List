@@ -1,0 +1,16 @@
+﻿## Interface: 11402
+
+## Title: Leatrix Maps
+## Notes: Enhancements for your maps.
+
+## Version: 1.14.29
+## Author: Leatrix
+## SavedVariables: LeaMapsDB
+
+## X-Curse-Project-ID: 324034
+
+Leatrix_Maps_Library.lua
+Leatrix_Maps_Locale.lua
+Leatrix_Maps.xml
+Leatrix_Maps_Reveal.lua
+Leatrix_Maps.lua

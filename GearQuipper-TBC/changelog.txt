@@ -1,0 +1,140 @@
+Version 54 (23-03-07):
+- Fixed issues with items of incorrect types in quick bars
+
+Version 53 (23-03-04):
+- Fixed issues where push to bank/pull from bank failed
+- Fixed issue where two completely identical weapons would not be switched into gear correctly
+
+Version 52 (23-02-08):
+- Set item comparison feature now automatically resets on error
+- Weapon quickslots now open below the slot instead of to the right side
+
+Version 51 (23-01-20):
+- Fixed quick slots
+
+Version 50 (23-01-18):
+- Fixed ElvUI blank inventory slots
+- Fixed ElvUI bag item highlighting
+
+Version 49 (23-01-18):
+- Added compatibility for new Blizzard addon API
+- New interface version: 30401
+
+Version 48 (22-12-05):
+- Fixed an error with item comparison tooltips on ammunition
+- Fixed issues with repositioning of MailFrame, CraftFrame and TradeSkillFrame
+
+Version 47 (22-11-19):
+- Improvements for set swiches with regard to unique gems
+- Added some translations for spanish (esES), now 24% complete
+- Added some translations for french (frFR), now 18% complete
+- Added some translations for korean (koKR), now 2% complete
+- Added some translations for simplified chinese (zhCN), now 24% complete
+- Added some translations for traditional chinese (zhTW), now 24% complete
+
+Version 46 (22-11-06):
+- Added GQ action slot management confirmation on first dual spec talent change
+- Changed: Moved watermark to the character micro button
+- Fixed: Disabling "confirm changes in chat" should now be working as intended
+- Fixed: Switching both weapons simultanously should now be working as intended (MH -> OH; OH -> MH)
+- Fixed: Items having unique gems socketed should now be switched properly
+- Improved: Quick slots will now contain already equipped items of the same type
+
+Version 45 (22-10-24):
+- Reduced the fontsize of the "current set" label on the character screen
+- Added event listener events: GQ_EVENT_ACTIONSLOT_SAVED, GQ_EVENT_ACTIONSLOT_SET_SAVED, GQ_EVENT_EVENT_BINDING_REMOVED, GQ_EVENT_EVENT_BINDING_SAVED, GQ_EVENT_SET_REMOVED, GQ_EVENT_SLOT_STATE_SAVED
+- Added toggle (click) for watermark
+
+Version 44 (22-10-19):
+- Added GQ event listener interface
+- Added event listener events: GQ_EVENT_SET_SAVED, GQ_EVENT_SLOT_SAVED
+- Improved the spell upranking feature
+- Fixed: Ammo quick slots will now only show distinct ammo types
+
+Version 43 (22-10-15):
+- Added support for Deja Classic Stats
+- Improved ammo slot handling
+- Fixed a bug where the ammo slot did not get saved automatically
+- Added quick switch bar for ammo slot
+- Fixed ElvUI GQ frame height
+- Fixed ElvUI GQ button
+- Fixed a bug with character stats frame event hooks
+- Added support for ElvUI Wrath Armory
+
+Version 42 (22-10-07):
+- Fixed a bug which prevented users who do not use action slot management from switching sets
+
+Version 41 (22-10-05):
+- Improvements and optimizations
+- Removed mouse-over set item comparison feature
+- Removed spell indexing at startup (seems to cause lag on some computers)
+
+Version 40 (22-10-05):
+- Fixed option to toggle set item comparison
+- Improved tooltip placement
+- Added spell indexing at startup
+
+Version 39 (22-10-04):
+- Added set item comparison via custom tooltips (hotkey: L-Alt)
+- Added option to toggle set item comparison via custom tooltips
+- Added option to toggle hint for set item comparison on default item tooltips
+- Added deathknight presence change event
+- Fixed an error where an event binding was falsely shown as existing
+- Bank pushes will no longer remove items from your current set
+- Improved error messages when pushing/pulling from/to bank
+
+Version 38 (22-10-03):
+- Added mouse-over set item comparison feature
+- Added "enter combat" event
+- Fixed some errors with chained or interrupted set switches
+- Some visual improvements
+
+Version 37 (22-09-16):
+- Fixed PlayerTalentFrame position when GQ frame is open
+- Fixed frame positions whenn SpellBookFrame is open
+- Added events for talent change
+
+Version 36 (22-09-11):
+- Added events for druid moonkin form
+- Added an option to disable action slot management altogether (some people seem to like the default dual spec management)
+
+Version 35 (22-09-07):
+- GQ will now detect a dual spec talent change and will reload set specific action slots if needed
+- Fixed: Empty action slots will no longer be shown in chat after dual spec talent change
+
+Version 34 (22-09-04):
+- Fixed ElvUI equipment manager button position
+- Fixed mounts on actionslots
+
+Version 33 (22-08-31):
+- Added WOTLK support
+- Moved the in-game equipment manager button to make some space for GQ ;)
+
+Version 32 (22-08-17):
+- Fixed the addon reset feature
+- Fixed an error which occured when the LDB did not initialize properly
+- Fixed an error which made the ammo slot contain an unexpected item after each levelup
+
+Version 31 (22-03-23):
+- Added: Doubleclick on GQ LDB item will switch to previous set
+- Added: TBag addon support
+- TBC Classic only: Upgraded to interface version 20504
+
+Version 30 (22-02-17):
+- Fixed: Set item highlighting for bank slots 25-28
+- Fixed: Set item availability checking for bank slots 25-28
+- Fixed: Bag 12 should now reset its alpha properly after set item highlighting
+- Added: Events for warrior stances (yes, finally!)
+- Fixed: UI will no longer get unlocked upon SPELLCAST_END
+
+Version 29 (22-01-19):
+- TBC Classic only: Upgraded to interface version 20503
+
+Version 28 (22-01-06):
+- Fixed: Items now should get saved properly when they receive an enchantment.
+- Fixed: (Re)socketed or (re)enchanted items will now only be saved on sets which are not partial or the slot is active.
+- Fixed: CraftFrame will now position itself properly OnShow if GqUiFrame is open.
+- Fixed: TradeSkillFrame will now position itself properly OnShow if GqUiFrame is open.
+- Classic Era only: Upgraded to interface version 11401
+
+No continuous changelog before version 28.
