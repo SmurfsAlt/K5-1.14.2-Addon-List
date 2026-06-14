@@ -1,0 +1,7 @@
+## Interface: 11508
+## Title: xBlueShaman
+## Notes: Changes Shaman class color to blue
+## Author: xHaplo
+## Version: 1.0
+
+xBlueShaman.lua
