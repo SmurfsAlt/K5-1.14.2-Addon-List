@@ -1,0 +1,6 @@
+## Interface: 11402
+## Title: Fix Shaman Color
+## Notes: Forces Shaman to Blue immediately before oUF engine cache cycles.
+## RequiredDeps: ElvUI
+
+core.lua
