@@ -72,7 +72,7 @@ E.PopupDialogs.ELVUI_UPDATE_AVAILABLE = {
 	OnEditFocusGained = function(self)
 		self:HighlightText()
 	end,
-	showAlert = 1,
+	showAlert = 0,
 }
 
 E.PopupDialogs.ELVUI_EDITBOX = {
